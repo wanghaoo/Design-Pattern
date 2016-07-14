@@ -15,7 +15,7 @@ public class Tester {
 		for (int i = 0; i < 10; i++) {
 			_list.add(Singleton.getInstance());
 		}
-		
+		/*检查存储的对象是不是同一个对象*/
 		for (int i = 0; i < _list.size(); i++){
 			if (i == 0) {
 				continue;
